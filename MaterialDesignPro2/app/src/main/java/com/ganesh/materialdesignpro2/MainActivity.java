@@ -2,6 +2,7 @@ package com.ganesh.materialdesignpro2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -13,7 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
-    FrameLayout frameLayout;
+    CoordinatorLayout frameLayout;
     FloatingActionButton fab;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
